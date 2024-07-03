@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <servlet>
+        <servlet-name>Connect</servlet-name>
+        <servlet-class>com.dis.ConnectToDb</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Connect</servlet-name>
+        <url-pattern>/db</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!--declartion of the fetch servlet-->
+    <servlet>
+        <servlet-name>Operation</servlet-name>
+        <servlet-class>com.dis.Operation</servlet-class>
+    </servlet>
+    <!--mapping of the fetch servlet-->
+    <servlet-mapping>
+        <servlet-name>Operation</servlet-name>
+        <url-pattern>/operation</url-pattern>
+    </servlet-mapping>
+    
+    <!--decalration of the selectall servlet-->
+    <servlet>
+        <servlet-name>Select All</servlet-name>
+        <servlet-class>com.dis.operations.SelectAll</servlet-class>
+    </servlet>
+    
+    <!--mapping of the selectall servlet-->
+    <servlet-mapping>
+        <servlet-name>Select All</servlet-name>
+        <url-pattern>/selectall</url-pattern>
+    </servlet-mapping>
+    
+    <!--declaration of the selectany servlet-->
+    <servlet>
+        <servlet-name>Select Any</servlet-name>
+        <servlet-class>com.dis.operations.SelectAny</servlet-class>
+    </servlet>
+    
+    <!--mapping of the selectany servlet-->
+    <servlet-mapping>
+        <servlet-name>Select Any</servlet-name>
+        <url-pattern>/selectany</url-pattern>
+    </servlet-mapping>
+    
+    <!--declartion of the update servlet-->
+    <servlet>
+        <servlet-name>Update Servlet</servlet-name>
+        <servlet-class>com.dis.operations.Update</servlet-class>
+    </servlet>
+    
+    <!--mapping of the update servlet-->
+    <servlet-mapping>
+        <servlet-name>Update Servlet</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    
+    <!--declartion of the insert servlet-->
+    <servlet>
+        <servlet-name>Insert Servlet</servlet-name>
+        <servlet-class>com.dis.operations.Insert</servlet-class>
+    </servlet>
+    
+    <!--mapping of the insert servlet-->
+    <servlet-mapping>
+        <servlet-name>Insert Servlet</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    
+    <!--declartion of the delete servlet-->
+    <servlet>
+        <servlet-name>Delete Servlet</servlet-name>
+        <servlet-class>com.dis.operations.Delete</servlet-class>
+    </servlet>
+    
+    <!--mapping of the delete servlet-->
+    <servlet-mapping>
+        <servlet-name>Delete Servlet</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

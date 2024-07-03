@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+      form {
+        text-align: center;
+      }
+      input[type="text"] {
+        width: 70%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type="submit"], input[type="reset"] {
+        width: 50%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      input[type="submit"]:hover, input[type="reset"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+      <form action="selectall" method="post">
+          <h2>Enter the Table Name - </h2>
+          <input type="text" name="table" placeholder="Enter the table Name"><br>
+          <input type="submit" value="Submit"><br>
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>

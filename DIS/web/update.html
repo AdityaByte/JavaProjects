@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Update Form</title>
+	<style>
+		/* Center the form content */
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			background-color: #f9f9f9;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			width: 80%; /* make it 80% of the screen width */
+			max-width: 400px; /* max width is 400px */
+			text-align: center;
+		}
+		.container h2 {
+			margin-top: 0;
+		}
+		.container input[type="number"], .container input[type="text"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		.container button[type="submit"], .container button[type="reset"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 5px;
+			background-color: #4CAF50;
+			color: #fff;
+			cursor: pointer;
+		}
+		.container button[type="submit"]:hover, .container button[type="reset"]:hover {
+			background-color: #3e8e41;
+		}
+		
+		/* Responsive design */
+		@media only screen and (max-width: 600px) {
+			.container {
+				width: 90%;
+			}
+		}
+		@media only screen and (max-width: 400px) {
+			.container {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+            <form action="update" method="post">
+			<h2>Enter the Table Name and ID</h2>
+                        <input type="text" name="table" placeholder="Enter the table name" required><br><br>
+			<input type="number" name="id" placeholder="Enter the ID" required><br><br>
+			<h2>Enter the details whom you want to update</h2>
+			<input type="text" name="name" placeholder="Enter the Name" required><br><br>
+			<input type="text" name="city" placeholder="Enter the city" required><br><br>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</form>
+	</div>
+</body>
+</html>

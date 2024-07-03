@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operation Selection</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			text-align: center;
+		}
+		.container {
+			width: 50%;
+			margin: 40px auto;
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.radio-field {
+			margin-bottom: 20px;
+		}
+		.button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Select which operation you want to choose</h2>
+		<form action="operation" method="post">
+                        <div class="radio-field">
+				<input type="radio"  name="operation" value="insert">
+				<label for="add">Insert data to the database</label>
+			</div>
+			<div class="radio-field">
+				<input type="radio"  name="operation" value="selectall">
+				<label for="add">Fetch all Data from the database</label>
+			</div>
+			<div class="radio-field">
+				<input type="radio"  name="operation" value="selectonly">
+				<label for="subtract">Select particular data from the database</label>
+			</div>
+			<div class="radio-field">
+				<input type="radio"  name="operation" value="update">
+				<label for="multiply">Update data to the database</label>
+			</div>
+			<div class="radio-field">
+				<input type="radio"  name="operation" value="delete">
+				<label for="divide">Delete Data from the database</label>
+			</div>
+			<button class="button" type="submit">Go...</button>
+			<button class="button" type="reset">Reset</button>
+		</form>
+	</div>
+</body>
+</html>
