@@ -24,9 +24,9 @@ class EmailSender {
 
         // Now we have to get the session
         
-        final String from = "adityabyte@gmail.com";
-        final String username = "adityabyte";
-        final String password = "tzumnqckegfhmtuy";
+        final String from = "YOUR SENDING EMAIL";
+        final String username = "YOUR SENDING EMAIL USERNAME";
+        final String password = "APP PASSWORD OF THE EMAIL";
 
         Session session = Session.getInstance(properties , new Authenticator() {
             @Override
