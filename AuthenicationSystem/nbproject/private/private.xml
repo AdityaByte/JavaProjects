@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/src/java/com/modernAuth/CheckForgetOTP.java</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/web/forgetform.jsp</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/src/java/com/modernAuth/User.java</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/src/java/com/modernAuth/EmailSender.java</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/src/java/com/modernAuth/ForgetPasswordServlet.java</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/src/java/com/modernAuth/OtpServlet.java</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/web/Signup_ma.html</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/src/java/com/modernAuth/SignUpServlet.java</file>
+            <file>file:/E:/Advanced%20Java/AuthenicationSystem/src/java/com/modernAuth/ChangePasswordServlet.java</file>
+        </group>
+    </open-files>
+</project-private>
