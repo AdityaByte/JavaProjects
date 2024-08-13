@@ -4,31 +4,6 @@
     <welcome-file-list>
         <welcome-file>Signup_ma.html</welcome-file>
     </welcome-file-list>
-    <servlet>
-        <servlet-name>Signup</servlet-name>
-        <servlet-class>com.authentication.signup.Signup</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Signup</servlet-name>
-        <url-pattern>/signup</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>Login</servlet-name>
-        <servlet-class>com.authentication.login.Login</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Login</servlet-name>
-        <url-pattern>/login</url-pattern>
-    </servlet-mapping>
-    <!--Here we are writing code of the modern authentication-->
-<!--    <servlet>
-        <servlet-name>signupma</servlet-name>
-        <servlet-class>com.modernAuth.SignUpServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>signupma</servlet-name>
-        <url-pattern>/signupma</url-pattern>
-    </servlet-mapping>-->
     <session-config>
         <session-timeout>
             30
